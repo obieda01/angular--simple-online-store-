@@ -8,7 +8,7 @@ import { products } from '../products';
   styleUrls: ['./product-list.component.css']
 })
 export class ProductListComponent {
-  birthday = new Date(1987,10,23);
+  birthday = new Date(1987, 10,23);
   products = products;
 
   share() {
