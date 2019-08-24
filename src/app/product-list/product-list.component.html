@@ -1,6 +1,6 @@
 
 <div>
-  birthday is {{birthday | date}}
+  birthday is {{birthday | date : 'yyyy,mm,dd'}}
 </div>
 <div *ngFor="let product of products; index as productId">
 
