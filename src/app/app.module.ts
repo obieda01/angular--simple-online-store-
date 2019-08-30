@@ -13,6 +13,7 @@ import {TopBarComponent} from './top-bar/top-bar.component';
 import {CartService} from './cart.service';
 import { UserProfileService } from './user-profile.service';
 import { CartComponent } from './cart/cart.component';
+import { ShippingComponent } from './shipping/shipping.component';
 
 @NgModule({
   imports: [
@@ -31,7 +32,8 @@ import { CartComponent } from './cart/cart.component';
     ProductListComponent,
     ProductAlertsComponent,
     ProductDetailsComponent,
-    CartComponent
+    CartComponent,
+    ShippingComponent
   ],
   bootstrap: [ AppComponent ],
   providers: [CartService, UserProfileService]
